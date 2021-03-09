@@ -25,19 +25,19 @@ test('tea bags', () => {
   expect(output).toEqual(60);
 });
 
-// test('Shopping list', () => {
-//   const previousShoppingList = {
-//     'washing up liquid': 2,
-//     toothpaste: 1,
-//     bacon: 3,
-//     'orange juice': 2
-//   };
+test('Shopping list', () => {
+  const previousShoppingList = {
+    'washing up liquid': 2,
+    toothpaste: 1,
+    bacon: 3,
+    'orange juice': 2
+  };
 
-//   const newShoppingList = {
-//     'washing up liquid': 1,
-//     bacon: 1,
-//     milk: 2
-//   };
+  const newShoppingList = {
+    'washing up liquid': 1,
+    bacon: 1,
+    milk: 2
+  };
 
 //   const output = shoppingList(previousShoppingList, newShoppingList);
 
